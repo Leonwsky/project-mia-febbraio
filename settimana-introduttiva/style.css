@@ -1,0 +1,14 @@
+h1{
+    color:green;
+    text-align: center;
+    margin: 0;
+}
+
+.color-primary {
+    color: green;
+ 
+}
+
+#title {
+    font-weight: 700;
+}
