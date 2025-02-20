@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --dark: #333333;
+    --dark-light: #666666;
+    --light: #c8c8c8;
+    --white: #ffffff;
+    --primary: #0077FF;
+    --primary-dark: #00489A;
+    --primary-light: #7982F2;
+    --gray: #666666;
+}
+
+*{
+    font-family: "Work Sans", serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+/* Navbar */
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+.menu li {
+    margin-right: 30px;
+    list-style: none;
+    font-weight: 600 ;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: var(--primary)
+}
+
+button {
+    background-color: var(--primary);
+    color:var(--white);
+    border: none;
+    border-radius: 50px;
+    padding: 13.5px 31.5px;
+    cursor: pointer
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+button.secondary {
+    background-color: var(--white);
+    color:var(--primary);
+    border: solid 2px var(--primary);
+}
